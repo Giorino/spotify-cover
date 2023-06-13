@@ -4,9 +4,9 @@ from PIL import ImageFont
 
 
 
-path = "tracy1.jpg"
-color = (251, 234, 211)
-text = "Study"
+path = "image.jpg" #the image that you choose
+color = (251, 234, 211) #color of the text
+text = "text" #the text
 
 try: 
     img = Image.open(path)
